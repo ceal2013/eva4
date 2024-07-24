@@ -1,38 +1,60 @@
-.App {
+body {
+  background-color: #f2f2f2;
+}
+
+/* Encabezado */
+header {
+  color: white;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Imagen del encabezado */
+header img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  max-height: 150px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Barra de navegación */
+nav.navbar {
+  font-size: 20px;
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Enlaces Navegación */
+.navbar-nav .nav-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-nav {
+  margin-left: auto; /* Asegura que el navbar-nav se alinee a la derecha */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#titulo-seccion {
+  border-bottom: 3px solid gray;
+  margin: 25px auto;
+}
+
+#lineaseccion {
+  border-bottom: 1px solid gray;
+  padding: 15px auto;
+}
+
+#cajatexto {
+  margin: auto;
+  padding: 50px;
+  text-align: justify;
+  font-family: Arial, sans-serif;
+}
+
+section h2 {
+  text-align: center;
+  color: rgb(35, 35, 129);
+  text-shadow: 2px 2px 4px gray;
+  padding: auto;
+  margin: 20px auto;
+  font-size: 40px;
 }
