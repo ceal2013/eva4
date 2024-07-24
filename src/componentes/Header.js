@@ -7,7 +7,7 @@ function Header() {
       <Container>
         <Row>
           <Col md={3}>
-            <img src="ceallogo.jpeg" alt="Logo CEAL Rooms" className="img-fluid" />
+            <img src="/ceallogo.jpeg" alt="Logo CEAL Rooms" className="img-fluid" />
           </Col>
           <Col md={9}>
             <Navbar expand="md" variant="dark">

@@ -58,3 +58,51 @@ section h2 {
   margin: 20px auto;
   font-size: 40px;
 }
+
+.imagen-seccion {
+ display: block;
+ max-width: 100%;
+ height: auto;
+ margin: 25px auto;
+}
+
+#cajaservicios {
+  
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+}
+
+
+/* Sección de Otros servicios */
+#otros-servicios {
+  text-align: left;
+  margin: auto;
+}
+
+#otros-servicios-list {
+  list-style-position: inside; 
+  list-style-type: disc;
+}
+
+#otros-servicios-list li {
+  margin: 10px;
+  font-size: 25px;
+}
+
+#otros-servicios-list p {
+  text-align: justify;
+
+}
+
+/* Estilos para el pie de página */
+footer {
+  
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  text-align: center;
+}
